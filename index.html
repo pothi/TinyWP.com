@@ -4,7 +4,7 @@ title: Web Perf Notes
 subtitle: Tiny web performance insights, tips, and a lot more!
 use-site-title: true
 sitemap:
-  lastmod: 2017-02-17
+  lastmod: 2018-07-11
   priority: 1.0
   changefreq: 'weekly'
   exclude: 'no'
@@ -14,13 +14,13 @@ sitemap:
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+    <h2 class="post-title">{{ post.title }}</h2>
 
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
+    {% if post.subtitle %}
+    <h3 class="post-subtitle">
+      {{ post.subtitle }}
+    </h3>
+    {% endif %}
     </a>
 
     <p class="post-meta">

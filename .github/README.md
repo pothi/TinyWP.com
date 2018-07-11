@@ -1,3 +1,21 @@
+# Instructions for Juno
+
+One time process:
+- install ruby, ruby-dev (`apt install ruby ruby-gem`)
+- install prerequisites `apt install zlib1g-dev`
+- update gem to the latest version (`gem update --system`)
+- as a normal user, install bundler (`gem install bundler`)
+- clone this repo to `~/git/tinywp.com/juno` and run `bundle install`
+- create a new site to develop locally, for example, `local.tinywp.com`
+- point this site to local machine and create nginx vhost entry
+
+Development process:
+- `cd ~/git/tinywp.com/juno`
+- create new blog post.
+- run `bundle exec jekyll build -d ~/sites/local.tinywp.com/public --config _juno.yml`
+- test it locally at local.tinywp.com
+- push to production.
+
 # Generic notes
 
 * the directory ./jekyll/ is git-ified with the repo hosted in github.com/pothi/tinywp.com
