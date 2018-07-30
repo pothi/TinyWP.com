@@ -1,0 +1,48 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+          "source": "/2017/web-per-checklist/",
+          "destination": "/web-per-checklist/",
+          "type" : 301
+      }, {
+        "source": "/2017/jekyll-on-mac-sierra/",
+        "destination": "/jekyll-on-mac-sierra/",
+        "type" : 301
+      }
+    ],
+    "headers": [ {
+      "source" : "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+      "headers" : [ {
+        "key" : "Access-Control-Allow-Origin",
+        "value" : "*"
+      }, {
+        "key" : "Cache-Control",
+        "value" : "max-age=86400"
+      }
+      ]
+    }, {
+      "source" : "**/*.@(jpg|jpeg|gif|png)",
+      "headers" : [ {
+      "key" : "Cache-Control",
+      "value" : "max-age=86400"
+      } ]
+    }, {
+      // Sets the cache header for 404 pages to cache for 5 minutes
+      "source" : "404.html",
+      "headers" : [ {
+      "key" : "Cache-Control",
+      "value" : "max-age=300"
+      } ]
+    } ]
+  }
+}

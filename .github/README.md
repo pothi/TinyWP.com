@@ -8,6 +8,7 @@ One time process:
 - clone this repo to `~/git/tinywp.com/juno` and run `bundle install`
 - create a new site to develop locally, for example, `local.tinywp.com`
 - point this site to local machine and create nginx vhost entry
+- copy firebase.json file from tinywp.com repo to ~/sites/tinywp.com/firebase/.
 
 Development process:
 - `cd ~/git/tinywp.com/juno`
