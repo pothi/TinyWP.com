@@ -27,14 +27,14 @@
         "value" : "*"
       }, {
         "key" : "Cache-Control",
-        "value" : "max-age=86400"
+        "value" : "public, max-age=86400"
       }
       ]
     }, {
       "source" : "**/*.@(jpg|jpeg|gif|png)",
       "headers" : [ {
       "key" : "Cache-Control",
-      "value" : "max-age=86400"
+      "value" : "public, max-age=86400, s-max-age=31536000"
       } ]
     }, {
       // Sets the cache header for 404 pages to cache for 5 minutes
@@ -43,6 +43,24 @@
       "key" : "Cache-Control",
       "value" : "max-age=300"
       } ]
+    }, {
+        "source" : "**",
+        "headers" : [ {
+            "key" : "X-Content-Type-Options",
+            "value" : "nosniff"
+        }, {
+            "key" : "X-Frame-Options",
+            "value" : "SAMEORIGIN"
+        }, {
+            "key" : "X-XSS-Protection",
+            "value" : "1; mode=block"
+        }, {
+            "key" : "Referrer-Policy",
+            "value" : "no-referrer-when-downgrade"
+        }, {
+            "key" : "Content-Security-Policy",
+            "value" : "img-src 'self'; font-src 'self' https://fonts.gstatic.com/; object-src 'none'; base-uri 'self'; form-action 'self'"
+        } ]
     } ]
   }
 }
