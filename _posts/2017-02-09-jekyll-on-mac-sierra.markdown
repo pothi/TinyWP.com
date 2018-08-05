@@ -6,7 +6,7 @@ last-modified-date: 2017-02-11
 categories: ssg jekyll
 ---
 
-Update (Oct 24, 2017): A new [simpler way to install Jekyll](/jekyll-on-mac-using-mac-ports) using latest version of its dependencies!
+**Update (Oct 24, 2017)**: A new [simpler way to install Jekyll using MacPorts is available](/jekyll-on-mac-using-mac-ports). So, the following article (written in Feb 2017) is outdated and may not work now!
 
 <a href="http://jekyllrb.com" target="_blank">Jekyll</a> is one of the oldest static site generators and is <em>the</em> most famous SSG (short for Static Site Generator) of all. It considers itself as "blog-aware". Every other SSG software now includes a way to bring blog functionality in its core, though. It is based on Ruby. MacOS Sierra already has it at version 2.0.0p648. So, installing Jekyll should be straight-forward. But, it isn't. The tutorials around the internet may usually contain how to install it using brew. There's nothing wrong with it. But, when there is a way to install it without brew or any other third-party tool, we will have a clean system. So, let's dive in.
 <h3>Local install</h3>
