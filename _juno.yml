@@ -156,6 +156,10 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - node_modules
+  - webpack.config.js
+  - package.json
+  - package-lock.json
 
 # prose.io config
 prose:

@@ -29,7 +29,7 @@
 
   {% if layout.special-js %}
     {% for js in layout.special-js %}
-      <script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+      <script defer src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
     {% endfor %}
   {% endif %}
 
