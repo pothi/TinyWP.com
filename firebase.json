@@ -59,7 +59,7 @@
             "value" : "no-referrer-when-downgrade"
         }, {
             "key" : "Content-Security-Policy",
-            "value" : "img-src 'self' https://www.google-analytics.com/; font-src 'self' https://fonts.gstatic.com/ https://maxcdn.bootstrapcdn.com/; object-src 'none'; base-uri 'self'; form-action 'self'"
+            "value" : "img-src 'self' https://www.google-analytics.com/; font-src 'self' https://fonts.gstatic.com/; object-src 'none'; base-uri 'self'; form-action 'self'"
         } ]
     } ]
   }
