@@ -37,6 +37,27 @@ avatar: "/img/200x200.jpg"
 # then specify the following parameter
 # title-img: /path/to/image
 
+# --- Background colour/image options --- #
+
+# Personalize the colors in your website. Colour values can be any valid CSS colour
+
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# Alternatively, the navbar, footer, and page background can be set to use background images
+# instead of colour
+
+# navbar-img: "/img/bgimage.png"
+# footer-img: "/img/bgimage.png"
+# page-img: "/img/bgimage.png"
+
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
@@ -47,23 +68,23 @@ author:
   facebook: tinywp  # eg. daattali
   github: pothi    # eg. daattali
   twitter: pothi   # eg. daattali
-  reddit: yourname    # eg. daattali
+  # reddit: yourname    # eg. daattali
   google-plus: +PothiKalimuthu   # eg. +DeanAttali or 109424658772469020925
-  linkedin: yourname  # eg. daattali
-  xing: yourname      # eg. daattali
+  # linkedin: yourname  # eg. daattali
+  # xing: yourname      # eg. daattali
   stackoverflow: 986155/pothi  # eg. "3943160/daattali"
-  snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
-  youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
-  telephone: yourphone   # eg. +14159998888
-  steam: yourname     # eg. daattali
-  twitch: yourname    # eg. daattali
-  yelp: yourname      # eg. daattali
+  # snapchat: yourname  # eg. daattali
+  # instagram: yourname # eg. daattali
+  # youtube: yourlink   # eg. user/daattali or channel/daattali
+  # spotify: yourname   # eg. daattali
+  # telephone: yourphone   # eg. +14159998888
+  # steam: yourname     # eg. daattali
+  # twitch: yourname    # eg. daattali
+  # yelp: yourname      # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
+  rss: true
   facebook: true
   email: false
   twitter: true
@@ -72,7 +93,7 @@ footer-links-active:
   reddit: false
   linkedin: false
   xing: false
-  stackoverflow: false
+  stackoverflow: true
   snapchat: false
   instagram: false
   youtube: false
@@ -92,6 +113,17 @@ share-links-active:
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
 url-pretty: "TinyWP.com"  # eg. "deanattali.com/beautiful-jekyll"
+
+# Staticman support
+staticman:
+  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  branch     : # eg. "master" If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+  endpoint   : # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
+  reCaptcha:
+    # reCaptcha for Staticman (OPTIONAL)
+    # If you use reCaptcha, you must also set these parameters in staticman.yml
+    siteKey  : # Use your own site key, you need to apply for one on Google
+    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
@@ -212,6 +244,7 @@ prose:
 
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
