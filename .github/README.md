@@ -13,8 +13,8 @@ One time process:
 Development process:
 - `cd ~/git/tinywp.com/juno`
 - create new blog post.
-- run `bundle exec jekyll build -d ~/sites/local.tinywp.com/public --config _juno.yml`
-- test it locally at local.tinywp.com
+- run `bundle exec jekyll build -d ~/sites/tinywpcom.juno.dev/public --config _juno.yml --watch --incremental --drafts`
+- test it locally at [tinywpcom.juno.dev](https://tinywpcom.juno.dev)
 - push to production.
 
 # Generic notes
