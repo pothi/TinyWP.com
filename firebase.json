@@ -18,6 +18,10 @@
         "source": "/2017/jekyll-on-mac-sierra/",
         "destination": "/jekyll-on-mac-sierra/",
         "type" : 301
+      }, {
+        "source": "/info.php",
+        "destination": "/",
+        "type": 307
       }
     ],
     "headers": [ {
