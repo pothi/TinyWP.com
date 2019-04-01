@@ -42,6 +42,7 @@ bundle exec jekyll build -d ~/sites/tinywp.com/dev/public --config _dev.yml
 ```
 bundle exec jekyll build -d ~/sites/tinywp.com/firebase/public
 cd ~/sites/tinywp.com/firebase
+cp ~/git/tinywp.com/juno/firebase.json .
 firebase deploy --only hosting
 ```
 
