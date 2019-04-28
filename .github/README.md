@@ -50,16 +50,16 @@ firebase deploy --only hosting
 ```
 # edit or create new posts in jekyll->_posts directory
 # use the format found in the existing files / posts.
-cd /Users/pothi/code/tinywp.com/jekyll
+cd /Users/pothi/sites/tinywpcom.test/jekyll
 # to develop locally
-# the only diff between _dev.yml and the default _config.yml is the URL
+# the only diff between _mba.yml and the default _config.yml is the URL
 # do a diff to see it yourself
-bundle exec jekyll build -d ~/sites/tinywpcom.test/public --config _dev.yml
+bundle exec jekyll build -d ~/sites/tinywpcom.test/public --config _mba.yml
 ```
 
 ### for production
 ```
-bundle exec jekyll build -d ~/code/tinywp.com/firebase/public
-cd ~/code/tinywp.com/firebase
+bundle exec jekyll build -d ~/sites/tinywpcom.test/firebase/public
+cd ~/sites/tinywpcom.test/firebase
 firebase deploy --only hosting
 ```
