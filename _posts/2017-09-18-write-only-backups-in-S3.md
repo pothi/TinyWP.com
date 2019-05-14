@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "One-way Backups"
+subtitle: "The correct way to take backups of your site using AWS S3 or Google Cloud Storage."
 date:   2017-09-18 13:21:23 +0530
-last-modified-date: 2017-09-18
+last-modified-date: 2019-05-01
 categories: aws s3 backups
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  'Mi Home Security Camera Review'
+subtitle: "Mi 360° 1080P WiFi Home Security Camera Review - Model 'MJSXJ02CM'"
 date:   2019-01-15 00:42:00 +0530
-last-modified-date: 2019-01-19
+last-modified-date: 2019-05-01
 categories: security
 tags: camera security iot
 ---

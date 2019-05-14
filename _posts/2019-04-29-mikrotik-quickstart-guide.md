@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "MikroTik Quickstart Guide"
+subtitle: "Have you just purchased a MikroTik router and don't know where to start?"
+image: /img/2019/mikrotik_hap_ac2.png
 date:   2019-04-29 11:22:00 +0530
-last-modified-date: 2019-04-29
+last-modified-date: 2019-05-01
 categories: mikrotik
 tags: networking
 ---

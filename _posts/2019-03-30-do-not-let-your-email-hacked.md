@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Do not let your email hacked"
+subtitle: "Do you know anyone can spoof your email address?!"
+excerpt: "Email spoofing is a machanism bywhich anyone can send an email on your behalf as email protocols don't have a way to authenticate emails."
 date:   2019-03-30 11:12:00 +0530
-last-modified-date: 2019-03-30
+last-modified-date: 2019-05-01
 categories: security
 tags: email spf
 ---
@@ -72,3 +74,4 @@ I have been using `~all` for a long time and I've also been watching how many em
 
 You may have multiple domains with multiple email addresses. However, as with me, you may have only one primary email address with your primary domain. In that case, I strongly recommend to use `-all` as qualifier that basically marks every email from every unknown IP as spam.
 
+Update on May 1, 2019: This domain's SPF records are officially switched to have `-all`, after a month of testing. Thanks.

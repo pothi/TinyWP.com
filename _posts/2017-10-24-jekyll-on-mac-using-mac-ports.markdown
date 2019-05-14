@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Jekyll on macOS using MacPorts"
+subtitle: "Get started with Jekyll SSG (Static Site Generator) on macOS using MacPorts."
 date:   2017-10-24 12:53:00 +0530
-last-modified-date: 2017-10-24
+last-modified-date: 2019-05-01
 categories: jekyll
 tags: macOS macports
 ---
