@@ -66,14 +66,14 @@ footer-link-col: "#404040"
 author:
   name: Pothi Kalimuthu
   # email: "youremail@domain.com"
-  facebook: tinywp  # eg. daattali
-  github: pothi    # eg. daattali
-  twitter: pothi   # eg. daattali
+  # facebook: tinywp  # eg. daattali
+  # github: pothi    # eg. daattali
+  # twitter: pothi   # eg. daattali
   # reddit: yourname    # eg. daattali
-  google-plus: +PothiKalimuthu   # eg. +DeanAttali or 109424658772469020925
+  # google-plus: +PothiKalimuthu   # eg. +DeanAttali or 109424658772469020925
   # linkedin: yourname  # eg. daattali
   # xing: yourname      # eg. daattali
-  stackoverflow: 986155/pothi  # eg. "3943160/daattali"
+  # stackoverflow: 986155/pothi  # eg. "3943160/daattali"
   # snapchat: yourname  # eg. daattali
   # instagram: yourname # eg. daattali
   # youtube: yourlink   # eg. user/daattali or channel/daattali
@@ -83,26 +83,12 @@ author:
   # twitch: yourname    # eg. daattali
   # yelp: yourname      # eg. daattali
 
-# Select which links to show in the footer
-footer-links-active:
+social-network-links:
   rss: true
-  facebook: true
-  email: false
-  twitter: true
-  google-plus: true
-  github: true
-  reddit: false
-  linkedin: false
-  xing: false
-  stackoverflow: true
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: false
-  steam: false
-  twitch: false
-  yelp: false
+  facebook: tinywp
+  github: pothi
+  twitter: pothi
+  stackoverflow: "986155/pothi"
 
 # Select which share links to show in posts
 share-links-active:

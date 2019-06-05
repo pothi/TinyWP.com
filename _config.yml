@@ -83,25 +83,12 @@ author:
   # yelp: yourname      # eg. daattali
 
 # Select which links to show in the footer
-footer-links-active:
+social-network-links:
   rss: true
-  facebook: true
-  email: false
-  twitter: true
-  google-plus: true
-  github: true
-  reddit: false
-  linkedin: false
-  xing: false
-  stackoverflow: true
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: false
-  steam: false
-  twitch: false
-  yelp: false
+  facebook: tinywp
+  github: pothi
+  twitter: pothi
+  stackoverflow: "986155/pothi"
 
 # Select which share links to show in posts
 share-links-active:
