@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  'Find useful info about Nginx on any server'
-# date:   2019-12-31 00:20:00 +0530
-# last-modified-date: 2019-12-31
+subtitle: 'Some tips to find information about Nginx installed on any Linux or BSD server'
+date:   2019-06-06 00:09:20 +0530
+last-modified-date: 2019-06-06
 categories: hosting
 tags: nginx
 ---
 
-Some tips to find information about Nginx on any server.
+Nginx is one of the popular web servers. Even though, it is popular, it is not widely used by system admins due to lack of support for htaccess file. Troubleshooting Nginx is even harder. In order to effectively use Nginx, one must know all the information about Nginx installed in a server. Here are some useful tips to get the same.
 
 ## Find installed modules
 
