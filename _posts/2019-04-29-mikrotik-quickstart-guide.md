@@ -22,7 +22,7 @@ MikroTik offers various ways to manage RouterOS, such as...
 * Webfig - browser based web-configuratio utility; only limited features are available to configure.
 * Console - swiss-army knife of RouterOS. Every configuration option is available via console.
 
-In our example, let's configure a MikroTik hap ac2, one of the best routers from MikroTik. It has five ethernet ports. By default, the ethernet port 1 is used as input for internet (from your ISP via a modem or a direct ethernet connection). The other ports can be used to connect computers, IoT devices or any device that require ethernet connection. Please know that you may use more than one wired internet for failover or for load-balancing. Those are advanced topics that would be covered as separate blog posts.
+In our example, let's configure a MikroTik hap ac<sup>2</sup>, one of the best routers from MikroTik. It has five ethernet ports. By default, the ethernet port 1 is used as input for internet (from your ISP via a modem or a direct ethernet connection). The other ports can be used to connect computers, IoT devices or any device that require ethernet connection. Please know that you may use more than one wired internet for failover or for load-balancing. Those are advanced topics that would be covered as separate blog posts.
 
 ## Quickset
 
