@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  'A template post'
+title:  'Hugo Development using Nginx'
 # date:   2019-06-05 00:17:00 +0530
 # last-modified-date: 2019-06-05
 categories: hugo
