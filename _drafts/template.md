@@ -160,12 +160,12 @@ Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
 ## Images
 
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+![Minion](https://octodex.github.com/images/minion.png){: width="200px"}
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat"){: width="200px"}
 
 Like links, Images also have a footnote style syntax
 
-![Alt text][id]
+![Alt text][id]{: width="200px"}
 
 With a reference later in the document defining the URL location:
 
