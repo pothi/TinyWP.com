@@ -5,17 +5,9 @@ One time process:
 - install prerequisites `apt install zlib1g-dev`
 - update gem to the latest version (`gem update --system`)
 - as a normal user, install bundler (`gem install bundler`)
-- clone this repo to `~/git/tinywp.com/juno` and run `bundle install`
-- create a new site to develop locally, for example, `local.tinywp.com`
-- point this site to local machine and create nginx vhost entry
-- copy firebase.json file from tinywp.com repo to ~/sites/tinywp.com/firebase/.
-
-Development process:
-- `cd ~/git/tinywp.com/juno`
-- create new blog post.
-- run `bundle exec jekyll build -d ~/sites/tinywpcom.juno.dev/public --config _juno.yml --watch --incremental --drafts`
-- test it locally at [tinywpcom.juno.dev](https://tinywpcom.juno.dev)
-- push to production.
+- point this site to local machine and create nginx vhost entry using `local-box -s com.tinywp.juno.dev`
+- clone this repo to `~/git/com.tinywp.juno.dev/jekyll` and run `bundle install`
+- copy firebase.json file from tinywp.com repo to ~/sites/com.tinywp.juno.dev/firebase/.
 
 # Generic notes
 
@@ -23,18 +15,17 @@ Development process:
 * firebase directory is not git-ified. Neither, it needs to be under version control.
 * this README is very important!
 
-## instructions for Juno (Elementory OS)
-
-* setup local nginx to point tinywpcom.juno.dev to point to ~/sites/tinywpcom.juno.dev/public. This can be done using the command `local-box -s tinywpcom.juno.dev`.
-* setup firebase
-
+Development process:
 ```
 # clone the repo to a local folder
-git clone https://github.com/pothi/tinywp.com ~/sites/tinywpcom.juno.dev/jekyll
-cd ~/sites/tinywpcom.juno.dev/jekyll
+git clone https://github.com/pothi/tinywp.com ~/sites/com.tinywp.juno.dev/jekyll
+cd ~/sites/com.tinywp.juno.dev/jekyll
+- create new blog post or draft.
 # to develop locally
 # the only diff between _juno.yml and the default _config.yml is the URL
-bundle exec jekyll build --drafts -d ~/sites/tinywp.com/dev/public --config _juno.yml
+bundle exec jekyll build --drafts -d ~/sites/com.tinywp.juno.dev/public --config _juno.yml --watch --incremental
+- test it locally at [com.tinywp.juno.dev](https://com.tinywp.juno.dev)
+- push to production.
 ```
 
 ### for production
