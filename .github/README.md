@@ -30,10 +30,10 @@ bundle exec jekyll build --drafts -d ~/sites/com.tinywp.juno.dev/public --config
 
 ### for production
 ```
-bundle exec jekyll build -d ~/sites/tinywpcom.juno.dev/firebase/public
-cd ~/sites/tinywpcom.juno.dev/firebase
-cp ~/git/tinywpcom.juno.dev/jekyll/firebase.json .
-firebase deploy --only hosting
+bundle exec jekyll build -d ~/git/tinywp.com/firebase/public
+cd ~/git/tinywp.com/firebase
+cp ~/git/tinywp.com/juno/firebase.json .
+firebase --project tiny-web-perf deploy --only hosting
 ```
 
 ## instructions for macOS
