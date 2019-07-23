@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  'Driving Tips'
-# date:   2019-06-21 00:00:00 +0530
-# last-modified-date: 2019-06-21
-categories: misc
+subtitle: "Driving tips in India, particularly for two-wheelers"
+excerpt: "India is a weird country where only a few people drives correctly. So, here are the tips to improve someone's driving skill."
+date:   2019-07-23 00:08:55 +0530
+last-modified-date: 2019-07-23
+categories: life
 tags: tips
 ---
 
