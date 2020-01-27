@@ -18,22 +18,24 @@ One time process:
 Development process:
 ```
 # clone the repo to a local folder
-git clone https://github.com/pothi/tinywp.com ~/sites/com.tinywp.juno.dev/jekyll
-cd ~/sites/com.tinywp.juno.dev/jekyll
-- create new blog post or draft.
+- (one time process) git clone https://github.com/pothi/tinywp.com ~/sites/com.tinywp.juno.dev/jekyll
+- `cd ~/sites/com.tinywp.juno.dev/jekyll`
+- `git pull origin master`
+- create draft post in *_drafts* folder.
 # to develop locally
 # the only diff between _juno.yml and the default _config.yml is the URL
-bundle exec jekyll build --drafts -d ~/sites/com.tinywp.juno.dev/public --config _juno.yml --watch --incremental
+`bundle exec jekyll build --drafts -d ~/sites/com.tinywp.juno.dev/public --config _juno.yml --watch --incremental`
 - test it locally at [com.tinywp.juno.dev](https://com.tinywp.juno.dev)
-- push to production.
+- push the local changes to github.
 ```
 
 ### for production
 ```
-bundle exec jekyll build -d ~/git/tinywp.com/firebase/public
-cd ~/git/tinywp.com/firebase
-cp ~/git/tinywp.com/juno/firebase.json .
-firebase --project tiny-web-perf deploy --only hosting
+- migrate the draft post to *_posts* folder.
+`bundle exec jekyll build -d ~/sites/com.tinywp.juno.dev/firebase/public`
+`cd ~/git/tinywp.com/firebase`
+`cp ~/git/tinywp.com/juno/firebase.json .`
+`firebase --project tinywpcom deploy --only hosting`
 ```
 
 ## instructions for macOS
