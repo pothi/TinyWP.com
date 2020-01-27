@@ -13,11 +13,11 @@ tags: tips
 
 Use IRCTC R-Wallet. Even though, it is not the cheapest method to book a ticket, it is the most convenient and fastest way. Remember that every second counts while booking under tatkal quota.
 
-## Keep your IRCTC eWallet password ready
+## Copy your IRCTC eWallet password into clipboard or use a password manager
 
-Copy the IRCTC eWallet password to your clipboard (by pressing Ctrl + c, CMD + c or any similar method). If you book through mobile phone, save the password in [Google Password Store](https://passwords.google.com/?pli=1). In this case, you don't have to type in the password. The password is filled automatically or using a simple drop-down menu.
+Copy the IRCTC eWallet password to your clipboard (by pressing Ctrl + c, CMD + c or any similar method). Or use a password manager such as [Google Password Store](https://passwords.google.com/?pli=1) to save your eWallet password. In this case, you don't have to type in the password. The password is filled automatically or using a simple drop-down menu.
 
-# Keep your email account opened
+# Open your email
 
 The OTP is sent to mobile as well as to the email. Email has always been faster to arrive than an SMS. Some SMS may never come too. Email is not like that. It always reaches the other end. Also, OTP in email can be copied and then pasted, especially if you use a computer while booking. This method is less prone to errors. Reading OTP from SMS and typing in the keyboard may result in typos. We are human. No human is perfect.
 
