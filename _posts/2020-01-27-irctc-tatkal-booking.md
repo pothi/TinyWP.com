@@ -13,7 +13,7 @@ tags: tips
 
 Use IRCTC R-Wallet. Even though, it is not the cheapest method to book a ticket, it is the most convenient and fastest way. Remember that every second counts while booking under tatkal quota.
 
-## Copy your IRCTC eWallet password into clipboard or use a password manager
+## Copy password to clipboard or use a password manager
 
 Copy the IRCTC eWallet password to your clipboard (by pressing Ctrl + c, CMD + c or any similar method). Or use a password manager such as [Google Password Store](https://passwords.google.com/?pli=1) to save your eWallet password. In this case, you don't have to type in the password. The password is filled automatically or using a simple drop-down menu.
 
