@@ -7,7 +7,7 @@ One time process:
 - as a normal user, install bundler (`gem install bundler`)
 - point this site to local machine and create nginx vhost entry using `local-box -s com.tinywp.juno.dev`
 - clone this repo to `~/git/com.tinywp.juno.dev/jekyll` and run `bundle install`
-- copy firebase.json file from tinywp.com repo to ~/sites/com.tinywp.juno.dev/firebase/.
+- copy `firebase.json` file from tinywp.com repo to `~/sites/com.tinywp.juno.dev/firebase/`.
 
 # Generic notes
 
@@ -19,23 +19,24 @@ Development process:
 ```
 # clone the repo to a local folder
 - (one time process) git clone https://github.com/pothi/tinywp.com ~/sites/com.tinywp.juno.dev/jekyll
-- `cd ~/sites/com.tinywp.juno.dev/jekyll`
-- `git pull origin master`
+- cd ~/sites/com.tinywp.juno.dev/jekyll
+- git pull origin master
 - create draft post in *_drafts* folder.
 # to develop locally
 # the only diff between _juno.yml and the default _config.yml is the URL
-`bundle exec jekyll build --drafts -d ~/sites/com.tinywp.juno.dev/public --config _juno.yml --watch --incremental`
+bundle exec jekyll build --drafts -d ~/sites/com.tinywp.juno.dev/public --config _juno.yml --watch --incremental
 - test it locally at [com.tinywp.juno.dev](https://com.tinywp.juno.dev)
 - push the local changes to github.
 ```
 
 ### for production
 ```
+- npm i -g firebase-tools
 - migrate the draft post to *_posts* folder.
-`bundle exec jekyll build -d ~/sites/com.tinywp.juno.dev/firebase/public`
-`cd ~/git/tinywp.com/firebase`
-`cp ~/git/tinywp.com/juno/firebase.json .`
-`firebase --project tinywpcom deploy --only hosting`
+bundle exec jekyll build -d ~/sites/com.tinywp.juno.dev/firebase/public
+cd ~/git/tinywp.com/firebase
+cp ~/git/tinywp.com/juno/firebase.json .
+firebase --project tinywpcom deploy --only hosting
 ```
 
 ## instructions for macOS
