@@ -34,8 +34,8 @@ bundle exec jekyll build --drafts -d ~/sites/com.tinywp.juno.dev/public --config
 - npm i -g firebase-tools
 - migrate the draft post to *_posts* folder.
 bundle exec jekyll build -d ~/sites/com.tinywp.juno.dev/firebase/public
-cd ~/git/tinywp.com/firebase
-cp ~/git/tinywp.com/juno/firebase.json .
+cd ~/git/com.tinywp.juno.dev/firebase
+cp ~/git/com.tinywp.juno.dev/jekyll/firebase.json .
 firebase --project tinywpcom deploy --only hosting
 ```
 
