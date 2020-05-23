@@ -1,9 +1,13 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
   <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
 
   <meta name="author" content="{{ site.author.name }}" />
 
@@ -25,13 +29,31 @@
 
   {% if layout.common-css %}
     {% for css in layout.common-css %}
-      <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+      <link rel="preload"
+        as="style"
+        href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+      <link rel="stylesheet"
+        href="{{ css | prepend: site.baseurl | replace: '//', '/' }}"
+        media="print" onload="this.media='all'" />
+      <noscript>
+        <link rel="stylesheet" href="{{ css | prepend: site.baseurl | replace: '//', '/' }}" />
+      </noscript>
     {% endfor %}
   {% endif %}
 
   {% if layout.common-googlefonts %}
     {% for font in layout.common-googlefonts %}
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}" />
+      <link rel="preload"
+        as="style"
+        href="//fonts.googleapis.com/css?family={{ font }}&display=swap" />
+
+      <link rel="stylesheet"
+        href="//fonts.googleapis.com/css?family={{ font }}&display=swap"
+        media="print" onload="this.media='all'" />
+
+      <noscript>
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family={{ font }}&display=swap" />
+      </noscript>
     {% endfor %}
   {% endif %}
 
