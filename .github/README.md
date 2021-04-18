@@ -7,18 +7,18 @@ One time process:
 - (optional) update gem to the latest version (`gem update --system`)
 - as a normal user, set GEM_HOME (ex: ~/.gem or ~/gem) and GEM_BIN (usually $GEM_HOME/bin)
 - install bundler (`gem install bundler`). We may need to install additional dependencies.
-- create new site using `local-box -s com.local.tinywp.in`
-- `cd ~/sites/com.local.tinywp.in`
-- `git clone git@github.com:pothi/TinyWP.com.git ~/sites/com.local.tinywp.in/jekyll`
-- `cp ~/sites/com.local.tinywp.in/jekyll/firesbase.json ~/sites/com.tinywp.juno.dev/firebase/`
-- `cd ~/sites/com.local.tinywp.in/jekyll`
+- create new site using `local-box -s com.focal.tinywp.in`
+- `cd ~/sites/com.focal.tinywp.in`
+- `git clone git@github.com:pothi/TinyWP.com.git ~/sites/com.focal.tinywp.in/jekyll`
+- `cp ~/sites/com.focal.tinywp.in/jekyll/firesbase.json ~/sites/com.tinywp.juno.dev/firebase/`
+- `cd ~/sites/com.focal.tinywp.in/jekyll`
 - `bundle install`
-- `mkdir ~/sites/com/local.tinywp.in/firebase`
-- Test the site using `bundle exec jekyll build --drafts -d ~/sites/com.local.tinywp.in/public --config _focal.yml --watch --incremental`
+- `mkdir ~/sites/com/focal.tinywp.in/firebase`
+- Test the site using `bundle exec jekyll build --drafts -d ~/sites/com.focal.tinywp.in/public --config _focal.yml --watch --incremental`
 - Try making minor edits.
 
 ### For Production
-- `bundle exec jekyll build -d ~/sites/com.local.tinywp.in/firebase/public`
+- `bundle exec jekyll build -d ~/sites/com.focal.tinywp.in/firebase/public`
 - cd ~/git/com.tinywp.juno.dev/firebase
 - (one time process) firebase login
 - firebase --project tinywpcom deploy --only hosting
