@@ -1,13 +1,27 @@
-# Instructions for Juno
+# Instructions for Ubuntu Focal Fossa (20.04)
 
 One time process:
-- install ruby, ruby-dev (`apt install ruby ruby-gem`)
-- install prerequisites `apt install zlib1g-dev`
-- update gem to the latest version (`gem update --system`)
-- as a normal user, install bundler (`gem install bundler`)
-- point this site to local machine and create nginx vhost entry using `local-box -s com.tinywp.juno.dev`
-- clone this repo to `~/git/com.tinywp.juno.dev/jekyll` and run `bundle install`
-- copy `firebase.json` file from tinywp.com repo to `~/sites/com.tinywp.juno.dev/firebase/`.
+
+- install ruby, ruby-dev (`sudo apt install ruby ruby-gem`)
+- install prerequisites `sudo apt install zlib1g-dev libffi-dev`
+- (optional) update gem to the latest version (`gem update --system`)
+- as a normal user, set GEM_HOME (ex: ~/.gem or ~/gem) and GEM_BIN (usually $GEM_HOME/bin)
+- install bundler (`gem install bundler`). We may need to install additional dependencies.
+- create new site using `local-box -s com.local.tinywp.in`
+- `cd ~/sites/com.local.tinywp.in`
+- `git clone git@github.com:pothi/TinyWP.com.git ~/sites/com.local.tinywp.in/jekyll`
+- `cp ~/sites/com.local.tinywp.in/jekyll/firesbase.json ~/sites/com.tinywp.juno.dev/firebase/`
+- `cd ~/sites/com.local.tinywp.in/jekyll`
+- `bundle install`
+- `mkdir ~/sites/com/local.tinywp.in/firebase`
+- Test the site using `bundle exec jekyll build --drafts -d ~/sites/com.local.tinywp.in/public --config _focal.yml --watch --incremental`
+- Try making minor edits.
+
+### For Production
+- `bundle exec jekyll build -d ~/sites/com.local.tinywp.in/firebase/public`
+- cd ~/git/com.tinywp.juno.dev/firebase
+- (one time process) firebase login
+- firebase --project tinywpcom deploy --only hosting
 
 # Generic notes
 
@@ -15,7 +29,8 @@ One time process:
 * firebase directory is not git-ified. Neither, it needs to be under version control.
 * this README is very important!
 
-Development process:
+## Development process:
+
 ```
 # clone the repo to a local folder
 - (one time process) git clone https://github.com/pothi/tinywp.com ~/sites/com.tinywp.juno.dev/jekyll
