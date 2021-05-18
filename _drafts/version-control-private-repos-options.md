@@ -1,77 +1,40 @@
 ---
 layout: post
-title:  'OpenSSH 8.2 on Ubuntu 20.04'
-# date:   2021-05-21 00:20:00 +0530
-# last-modified-date: 2021-05-21
+title:  'Private Git Hosting Options'
+# date:   2021-06-11 00:20:00 +0530
+# last-modified-date: 2021-06-11
 categories: misc
 tags: focal ssh
 ---
 
-Ubuntu 20.04 released on Apr 2020 included OpenSSH version 8.2. Ubuntu 20.04 is the latest LTS version as of this writing. The previous LTS release (Ubuntu 18.04) included OpenSSH version 7.6. Lately, I've been migrating lots of servers running Ubuntu 16.04 (that reached its EOL on Apr 2021) to Ubuntu 20.04 (that will reach its EOL on April 2025). Those servers (running Ubuntu 16.04) were using OpenSSH 7.2. There has been a lot of changes since OpenSSH version 7.2 and since version 7.6. Let me go through each and find out how easy things are now with the latest features.
+Github is not the only one that offers free private repos. Here, I list pros and limitations of some popular options.
 
-## OpenSSH 7.3
+## AWS CodeCommit
 
-OpenSSH 7.3 added a feature that supports `Include` keyword on ssh_config file/s that are present in `/etc/ssh/ssh_config` or in `~/.ssh/config`. It means if I have hundreds of servers to manage, I can split ssh_config file into multiple files. For example, previously, my `~/.ssh/config` looked like this...
+__Limitations__: Accepts only RSA keys as of this writing. This is a generic limitation across AWS eco-system.
 
-```
-Host home_pi_3_server
-    Hostname    192.168.91.3
-    User        ubuntu
+*Features*: Finer control over what a user can do. This is done via AWS IAM (Identity and Access Management).
 
-Host home_pi_4_desktop
-    Hostname    192.168.91.4
-    User        pi
+## Google Code
 
-Host client_name_1
-    Hostname    example.com
-    User        actual_user
+__Limitations__:
 
-Host client_name_2
-    Hostname    example.tld
-    User        actual_user
-```
+* No public git hosting.
+* Still uses master branch as default branch as of this writing.
 
-Now, the same file looks like this...
+*Features*: Free until 5 users.
 
-```
-Include config.d/*
-```
+## BitBucket
 
-Yes. Just a single line. With home and client data are split into multiple files in `~/.ssh/config.d/` directory. Here are the contents of `~/.ssh/config.d/home`...
+## Gitlab
 
-```
-Host home_pi_3_server
-    Hostname    192.168.91.3
-    User        ubuntu
+## Github
 
-Host home_pi_4_desktop
-    Hostname    192.168.91.4
-    User        pi
-```
+___
 
-Contents of `~/.ssh/config.d/work`...
+### Conclusion
 
-```
-Host client_name_1
-    Hostname    example.com
-    User        actual_user
-
-Host client_name_2
-    Hostname    example.tld
-    User        actual_user
-```
-
-There is another advantage of having ssh_config file split into multiple files. I have plenty of test servers running as LXD containers and virtual machines. I can keep those servers in a separate config file and then let gitignore file ignore only that config file. Yes, I keep my ssh_config file in version control.
-
-## OpenSSH 8.2
-
-OpenSSH 7.3 added a feature that supports `Include` keyword on sshd_config file in `/etc/ssh/sshd_config`, the config file for SSH server. While `Include` directive is the same as above, the use-case here is applicable or useful in a completely different context. With `Include` in sshd_config file, we no longer have to update the primary configuration file by hand. Whenever we wish to modify the default behaviour of ssh server, we can include it as a file. Ubuntu 20.04 has already configured this and has the following line at the top of `/etc/ssh/sshd_config`...
-
-```
-Include /etc/ssh/sshd_config.d/*.conf
-```
-
-So, if we need to disable root login completely, we can include a file named `deny-root-login.conf` with the text `PermitRootLogin no`. if we need to allow password login for users, we can include a file named `allow-passwd-auth.conf` with the text `PasswordAuthentication yes`. This is much handy than overwriting the original file. We also know what tweaks we have done to the ssh server.
+While I still use Github to keep public repos, I've split my private repositories across multiple platforms. I follow "don't put all your eggs in one basket" policy in this regard. Do you have a favorite private git hosting platform? Please share it in the comments section.
 
 ### H3 header
 
