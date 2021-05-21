@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  'OpenSSH 8.2 on Ubuntu 20.04'
-# date:   2021-05-21 00:20:00 +0530
-# last-modified-date: 2021-05-21
+subtitle: "Rundown of useful features introduced in OpenSSH in recent years."
+excerpt: "Recent features in OpenSSH allows efficient handling of configurations, both on the client side and on the server side. Let's find out what they are."
+date:   2021-05-21 12:30:00 +0530
+last-modified-date: 2021-05-21
 categories: misc
 tags: focal ssh
 ---

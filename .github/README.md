@@ -1,3 +1,8 @@
+# Instructions for Firebase CLI
+
+- Install node (and thus npm). Preferable using fnm.
+- `npm install -g firebase-tools`
+
 # Instructions for Ubuntu Focal Fossa (20.04)
 
 One time process:
@@ -19,9 +24,9 @@ One time process:
 
 ### For Production
 - `bundle exec jekyll build -d ~/sites/com.focal.tinywp.in/firebase/public`
-- cd ~/git/com.tinywp.juno.dev/firebase
+- `cd ~/sites/com.focal.tinywp.in/firebase`
 - (one time process) firebase login
-- firebase --project tinywpcom deploy --only hosting
+- `firebase --project tinywpcom deploy --only hosting`
 
 # Generic notes
 
