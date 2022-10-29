@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  'A template post'
+title:  "A template post"
+subtitle: "A subtitle that some themes might use."
+excerpt: "Excerpt may be shown by some themes and may be used in SEO."
 # date:   2019-12-31 00:20:00 +0530
 # last-modified-date: 2019-12-31
 categories: misc
