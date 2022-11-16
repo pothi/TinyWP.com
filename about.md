@@ -10,7 +10,7 @@ Name: Pothi Kalimuthu
 
 Native of: Srivilliputhur, Tamil Nadu, India.
 
-Lives in: Srivilliputhur, Tamil Nadu, India (in the process of migrating to Madurai, though)
+Lives in: Chatrapatti, Tamil Nadu, India
 
 Hobby: Chess
 
@@ -18,4 +18,4 @@ Work: Wrangling servers and solving real-world problems!
 
 You may know more [about me at tinywp.in](https://www.tinywp.in/about/).
 
-Contact Email: pothi@protonmail.com or pothi@tinywp.com
+Contact Email: pothi@protonmail.com (*no advertisement* inquiries please).

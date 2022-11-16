@@ -27,6 +27,8 @@ navbar-links:
   Projects:
     - WordPress Nginx Config: "https://github.com/pothi/wordpress-nginx"
     - WordPress Plugins: "https://profiles.wordpress.org/pothi#content-plugins"
+    - Mikrotik Generic Scripts: "https://github.com/pothi/mikrotik-scripts"
+    - Mikrotik LTE Scripts: "https://github.com/pothi/mikrotik-lte-scripts"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
