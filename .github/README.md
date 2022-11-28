@@ -1,13 +1,84 @@
-# Instructions for Firebase CLI Installation and Initialization
+# TinyWP.com - data
 
-- Install node (and thus npm). Preferable using fnm.
+## Instructions for Firebase CLI Installation and Initialization
+
+- Install node (and thus npm). Preferable using [fnm](https://github.com/Schniz/fnm).
 - `npm install -g firebase-tools`
 - `firebase login --no-localhost` (and follow the prompts)
 - `firebase projects:list`
 - `firebase use --add` (to set / select an active project and alias)
 - `firebase --project project_alias deploy --only hosting` (without setting an active project)
 
-# Instructions for Ubuntu Focal Fossa (20.04)
+## Node installation using fnm
+
+For standard shells (bash, zsh, etc), automate the install process by downloading and executing https://github.com/Schniz/fnm/blob/master/.ci/install.sh as mentioned at https://github.com/Schniz/fnm#installation.
+
+```
+# For bash completions
+[ ! -d ~/.local/share/bash-completion/completions ] && mkdir -p ~/.local/share/bash-completion/completions
+[ ! -f ~/.local/share/bash-completion/completions/fnm ] && fnm completions --shell bash > ~/.local/share/bash-completion/completions/fnm
+exec $SHELL
+
+fnm install --lts
+
+# verify node and npm
+node -v
+npm -v
+
+# for more info, run `fnm -h`
+```
+
+## Instructions for Ubuntu Jammy JellyFish (22.04)
+
+Note: The snap version doesn't contain ruby-dev files. So, don't install via snap, yet.
+
+```
+sudo apt install ruby ruby-dev build-essential -y
+```
+
+As a normal user...
+
+```
+# check GEM_HOME
+# check GEM_BIN is in PATH
+# configure if not exist
+echo $GEM_HOME
+echo $PATH
+
+# JS_URL = Jekyll Site URL
+export JS_URL=example.com
+
+mkdir -p ~/sites/$JS_URL/public
+
+cd ~/sites/$JS_URL
+git pull https://github.com/pothi/TinyWP.com jekyll
+cp jekyll/firebase.json firebase/
+cd jekyll
+
+gem install bundler
+bundle install
+
+rm -rf ../public && bundle exec jekyll build -d ~/sites/$JS_URL/public --config _jammy.yml --watch --incremental --drafts
+```
+
+Once everything is working, please have a cron to remove the test site.
+
+```
+@daily [ -d ~/sites/com.tinywp.com/public/ ] && rm -rf ~/sites/com.tinywp.com/public
+
+```
+
+### For Production
+
+```
+export JS_URL=example.com
+cd ~/sites/$JS_URL/jekyll
+rm -rf ../firebase/public && bundle exec jekyll build -d ~/sites/$JS_URL/firebase/public
+cd ~/sites/$JS_URL/firebase
+firebase deploy --only hosting
+```
+
+## Instructions for Ubuntu Focal Fossa (20.04)
 
 One time process:
 

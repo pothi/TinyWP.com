@@ -1,12 +1,29 @@
 ---
+# This is called "front matter"
+# This can be in yaml, toml or json format
+# Current it is in yaml format
+# Know more at https://wikipedia.org/wiki/YAML
+
 layout: post
+
 title:  "A template post"
 subtitle: "A subtitle that some themes might use."
 excerpt: "Excerpt may be shown by some themes and may be used in SEO."
+
 # date:   2019-12-31 00:20:00 +0530
 # last-modified-date: 2019-12-31
-categories: misc
-tags: test
+
+categories: ["misc"]
+
+# tags usually contain a *list* of items
+# List of items can be formatted differently in yaml
+# In the following example, each item is surrounded by double quotes,
+#   and separated by space.
+# Jekyll additionally supports a simple comman separately list (non-standard format)
+# Do NOT ever use a non-standard format
+tags: ["test" "another-tag"]
+
+# permalink: "/any-permalink/"
 ---
 
 This is a simple paragraph in markdown that doesn't need any special characters to denote a paragraph.
