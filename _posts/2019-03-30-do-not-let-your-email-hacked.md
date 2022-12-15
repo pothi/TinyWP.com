@@ -5,8 +5,8 @@ subtitle: "Do you know anyone can spoof your email address?!"
 excerpt: "Email spoofing is a machanism bywhich anyone can send an email on your behalf as email protocols don't have a way to authenticate emails."
 date:   2019-03-30 11:12:00 +0530
 last-modified-date: 2019-05-01
-categories: security
-tags: email spf
+categories: "security"
+tags: ["email", "spf"]
 ---
 
 I received an email to my primary email address, from the same primary email address, with the following content...

@@ -3,7 +3,8 @@ layout: post
 title:  "Installing PhpMyAdmin with Nginx"
 date:   2017-03-18 18:31:23 +0530
 last-modified-date: 2017-03-18
-categories: phpmyadmin nginx debian ubuntu
+categories: ["linux"]
+tags: ["phpmyadmin", "nginx", "debian", "ubuntu"]
 ---
 
 # Installing PhpMyAdmin with Nginx

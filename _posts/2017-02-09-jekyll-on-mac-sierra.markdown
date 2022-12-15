@@ -3,7 +3,8 @@ layout: post
 title:  "Jekyll on Mac OS Sierra"
 date:   2017-02-09 23:31:23 +0530
 last-modified-date: 2017-02-11
-categories: ssg jekyll
+categories: ["ssg" "jekyll"]
+tags: ["mac", "jekyll", "ssg"]
 ---
 
 **Update (Oct 24, 2017)**: A new [simpler way to install Jekyll using MacPorts is available](/jekyll-on-mac-using-mac-ports). So, the following article (written in Feb 2017) is outdated and may not work now!

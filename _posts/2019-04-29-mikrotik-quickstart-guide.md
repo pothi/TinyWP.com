@@ -5,8 +5,8 @@ subtitle: "Have you just purchased a MikroTik router and don't know where to sta
 image: /img/2019/mikrotik_hap_ac2.png
 date:   2019-04-29 11:22:00 +0530
 last-modified-date: 2019-05-01
-categories: mikrotik
-tags: networking
+categories: "mikrotik"
+tags: ["networking"]
 ---
 
 MikroTik routers offer the best value for money. However, they may be hard to configure for newbies. Most online videos, tutorials, guides, etc., are based on [Winbox](https://wiki.mikrotik.com/wiki/Manual:Winbox), a handy utility for getting things quickly for *experienced* users. It isn't the best fit for newbies, though. The best way to start using MikroTik RouterOS is to start with [Quickset](https://wiki.mikrotik.com/wiki/Manual:Quickset#VPN) that can be revoked by typing 192.168.88.1 in a browser.

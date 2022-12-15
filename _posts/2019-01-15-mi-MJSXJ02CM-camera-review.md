@@ -4,8 +4,8 @@ title:  'Mi Home Security Camera Review'
 subtitle: "Mi 360° 1080P WiFi Home Security Camera Review - Model 'MJSXJ02CM'"
 date:   2019-01-15 00:42:00 +0530
 last-modified-date: 2019-05-01
-categories: security
-tags: camera security iot
+categories: "security"
+tags: ["camera", "security", "iot"]
 ---
 
 In one line... Xiaomi Mi 360° 1080p Home Security Camera (MJSXJ02CM) is ideal for monitoring, but lacks essential features as a security camera. Some people in [Amazon](https://www.amazon.in/gp/customer-reviews/R3UONEK0PLA01H/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B07HJD1KH4) and [Flipkart](https://www.flipkart.com/reviews/5b28cbdb-7bc2-4d46-9f61-21068df0c91d) found my reviews helpful. So, I thought of writing this extended review as re-submitting my reviews take times to reflect on those sites.

@@ -4,8 +4,8 @@ title:  'Blocking search engines and CDN to avoid duplicate content'
 subtitle: 'How to prevent duplicate content when using a CDN or a public-facing development site.'
 date:   2019-05-15 00:15:30 +0530
 last-modified-date: 2019-05-15
-categories: seo
-tags: google staging development
+categories: "seo"
+tags: ["google", "staging", "development"]
 ---
 
 A lot of sites use CDNs to host their assets, such as stylesheets, javascripts and images. However, if not properly configured, CDNs can also duplicate the actual content of a site. Also, it is not uncommon to have a public facing staging site or development site for testing the changes in code. Some hosts offer free staging environment/s as well. Here, let me show you the correct way to prevent duplicate content when configuring a CDN or a staging / development / testing site.

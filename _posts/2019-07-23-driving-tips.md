@@ -5,8 +5,8 @@ subtitle: "Driving tips in India, particularly for two-wheelers"
 excerpt: "India is a weird country where only a few people drives correctly. So, here are the tips to improve someone's driving skill."
 date:   2019-07-23 00:08:55 +0530
 last-modified-date: 2019-07-23
-categories: life
-tags: tips
+categories: "life"
+tags: "tips"
 ---
 
 # Tips to drive safely with two-wheelers

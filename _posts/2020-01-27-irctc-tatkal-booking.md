@@ -5,8 +5,8 @@ subtitle: "In 2020, I get confirmed tatkal ticket all the time!"
 excerpt: "In 2020, getting confirmed tatkal ticket in IRCTC train booking is like winning a lottery. While that's still true, you may achieve a higher percentage of success in getting a confirmed tatkal ticket using the tips shared in this article."
 date:   2020-01-27 19:08:55 +0530
 last-modified-date: 2020-01-27
-categories: irctc
-tags: tips
+categories: "irctc"
+tags: "tips"
 ---
 
 # Payment Gateway

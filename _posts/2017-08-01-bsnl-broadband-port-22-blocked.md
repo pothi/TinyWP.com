@@ -3,7 +3,8 @@ layout: post
 title:  "Solutions for BSNL Broadband without port 22"
 date:   2017-08-02 16:21:23 +0530
 last-modified-date: 2017-08-02
-categories: bsnl broadband ban block ssh
+categories: ["bsnl"]
+tags: ["bsnl", "broadband", "ban", "block", "ssh"]
 ---
 
 If you are a BSNL broadband user and you work as a web developer or system admin, you may want to connect to your client sites and servers using port 22. Since, August 1, 2017, BSNL has blocked / banned port 22 on its network. It's not clear if it is temporary or permanent. Recently, [thousands of BSNL broadband modems were affected by malware](http://www.thehindu.com/news/national/karnataka/malware-affects-thousands-of-bsnl-broadband-modems/article19381410.ece). Those affected modems may be spreading the malware on their own using port 22. If this is so, it is recommended to block port 22 temporarily. That's why BSNL has only banned port 22 only on their broadband network. BSNL mobile network isn't affected. None of the other ISPs blocked port 22, either. What's worse is BSNL broadband hasn't informed its users of this policy change.

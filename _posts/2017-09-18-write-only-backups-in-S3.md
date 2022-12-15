@@ -4,7 +4,8 @@ title:  "One-way Backups"
 subtitle: "The correct way to take backups of your site using AWS S3 or Google Cloud Storage."
 date:   2017-09-18 13:21:23 +0530
 last-modified-date: 2019-05-01
-categories: aws s3 backups
+categories: ["backups"]
+tags: ["aws", "s3", "backups"]
 ---
 
 Taking backup is important. How we take backups is even more important. I use AWS S3 for most of my backups, not just because of its cost, but because of its ability to fine-tune your backup strategies. For example, for my other site [tinywp.in](https://www.tinywp.in/) that is running on Google Compute Platform, I take regular backups using my own [backup scripts](https://github.com/pothi/backup-wordpress). There *was* one potential issue in it. If the bad guy (or girl) breaks into my servers, all my data would be gone. He / she can even delete all my data in offsite location (S3). Right? No, not with AWS IAM and some fine-tuned strategy. Let's dive a little deeper.

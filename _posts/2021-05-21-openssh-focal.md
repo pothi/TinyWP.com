@@ -5,8 +5,8 @@ subtitle: "Rundown of useful features introduced in OpenSSH in recent years."
 excerpt: "Recent features in OpenSSH allows efficient handling of configurations, both on the client side and on the server side. Let's find out what they are."
 date:   2021-05-21 12:30:00 +0530
 last-modified-date: 2021-05-21
-categories: misc
-tags: focal ssh
+categories: "misc"
+tags: ["focal", "ssh"]
 ---
 
 Ubuntu 20.04 released on Apr 2020 included OpenSSH version 8.2. Ubuntu 20.04 is the latest LTS version as of this writing. The previous LTS release (Ubuntu 18.04) included OpenSSH version 7.6. Lately, I've been migrating lots of servers running Ubuntu 16.04 (that reached its EOL on Apr 2021) to Ubuntu 20.04 (that will reach its EOL on April 2025). Those servers (running Ubuntu 16.04) were using OpenSSH 7.2. There has been a lot of changes since OpenSSH version 7.2 and since version 7.6. Let me go through each and find out how easy things are now with the latest features.

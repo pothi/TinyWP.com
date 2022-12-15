@@ -4,8 +4,8 @@ title:  "Jekyll on macOS using MacPorts"
 subtitle: "Get started with Jekyll SSG (Static Site Generator) on macOS using MacPorts."
 date:   2017-10-24 12:53:00 +0530
 last-modified-date: 2019-05-01
-categories: jekyll
-tags: macOS macports
+categories: ["jekyll"]
+tags: ["macOS", "macports"]
 ---
 
 Jekyll grows fast. Keeping it updated to the latest version is easy, if we keep every dependency to the latest version too, starting with ruby! The previous article on installing Jekyll on mac Sierra is too old to be used now. Also, it used the ruby version comes by default in macOS. That's usually an older version. In order to get the latest version of ruby (or anything), there are paths available. I personally like [macports](https://www.macports.org/). So, let's get started.

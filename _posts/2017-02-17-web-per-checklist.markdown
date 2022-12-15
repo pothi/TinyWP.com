@@ -3,7 +3,7 @@ layout: post
 title:  "Web Performance Checklist"
 date:   2017-02-17 16:00:00 +0530
 last-modified-date: 2017-02-17
-categories: perf
+categories: ["perf"]
 ---
 
 I use some perf checklists whenever I review a site. Here's the incomplete list.
