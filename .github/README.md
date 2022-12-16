@@ -15,8 +15,10 @@ For standard shells (bash, zsh, etc), automate the install process by downloadin
 
 ```
 # For bash completions
-[ ! -d ~/.local/share/bash-completion/completions ] && mkdir -p ~/.local/share/bash-completion/completions
-[ ! -f ~/.local/share/bash-completion/completions/fnm ] && fnm completions --shell bash > ~/.local/share/bash-completion/completions/fnm
+# https://serverfault.com/a/968369/102173
+bash_completion_dir=${BASH_COMPLETION_USER_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/bash-completion}/completions
+[ ! -d $bash_completion_dir ] && mkdir -p $bash_completion_dir
+[ ! -f $bash_completion_dir/fnm ] && fnm completions --shell bash > $bash_completion_dir/fnm
 exec $SHELL
 
 fnm install --lts
