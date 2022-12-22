@@ -3,7 +3,7 @@ layout: post
 title:  "Jekyll on Mac OS Sierra"
 date:   2017-02-09 23:31:23 +0530
 last-modified-date: 2017-02-11
-categories: ["ssg" "jekyll"]
+categories: ["ssg", "jekyll"]
 tags: ["mac", "jekyll", "ssg"]
 ---
 
