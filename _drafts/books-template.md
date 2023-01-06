@@ -50,6 +50,10 @@ Currently Reading...
 - The Body Keeps the Score: Mind, Brain and Body in the Transformation of Trauma - Bessel van der Kolk - bought via Kindle
 - One Up On Wall Street by Peter Lynch
 
+
+Currently listening... (via Audible)
+- [The Circadian Code](https://www.amazon.in/Circadian-Code-Supercharge-Transform-Midnight/dp/163565243X) by [Dr. Satchin Panda](https://www.salk.edu/scientist/satchidananda-panda/)
+
 ### The books that impressed me the most in 2023
 
 - The Body Keeps the Score: Mind, Brain and Body in the Transformation of Trauma - Bessel van der Kolk
