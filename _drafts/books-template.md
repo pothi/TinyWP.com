@@ -42,24 +42,23 @@ Fiction:
 - Anger of a woman named 'Komalam' (Tamil Edition) by Aringar Anna
 
 Non-fiction:
-- Story of Tiruppur (a city in the state of TN in India) - book #15 (Tamil Edition) by Jothi Ganesan
-- Learn Politics by Samas
+- The Body Keeps the Score: Mind, Brain and Body in the Transformation of Trauma - Bessel van der Kolk - bought via Kindle
 
 Currently Reading...
-
-- The Body Keeps the Score: Mind, Brain and Body in the Transformation of Trauma - Bessel van der Kolk - bought via Kindle
 - One Up On Wall Street by Peter Lynch
-
+- [Epilogue](https://www.amazon.in/gp/product/B07QR224XS/) (see above under Pa Raghavan)
+- One Part Female (Tamil Edition) by Perumalmurugan - Bought on Kindle - English edition of the book won the [Sahitya award](https://www.sahitya-akademi.gov.in/) for the translation in 2016.
 
 Currently listening... (via Audible)
+
 - [The Circadian Code](https://www.amazon.in/Circadian-Code-Supercharge-Transform-Midnight/dp/163565243X) by [Dr. Satchin Panda](https://www.salk.edu/scientist/satchidananda-panda/)
+
 
 ### The books that impressed me the most in 2023
 
 - The Body Keeps the Score: Mind, Brain and Body in the Transformation of Trauma - Bessel van der Kolk
-- Learn Politics by Samas
 
-Learn Politics by Samas confirmed my believes and it made sure that I wasn't alone in my path. The other book isn't completed yet (70% completed at the end of 2022). It basically clarified why certain people behave in certain way and how the body keeps the score of the mind. Wonderful read (so far).
+'The body keeps the score' is basically clarified why certain people behave in certain way and how the body keeps the score of the mind. Wonderful read (so far).
 
 My goodreads profile... [https://www.goodreads.com/pothi](https://www.goodreads.com/pothi)
 
