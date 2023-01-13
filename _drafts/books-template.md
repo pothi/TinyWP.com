@@ -46,8 +46,8 @@ Non-fiction:
 
 Currently Reading...
 - One Up On Wall Street by Peter Lynch
-- [Epilogue](https://www.amazon.in/gp/product/B07QR224XS/) (see above under Pa Raghavan)
 - One Part Female (Tamil Edition) by Perumalmurugan - Bought on Kindle - English edition of the book won the [Sahitya award](https://www.sahitya-akademi.gov.in/) for the translation in 2016.
+- Robert Oppenheimer: A Life from Beginning to End (World War 2 Biographies) by Hourly History
 
 Currently listening... (via Audible)
 
