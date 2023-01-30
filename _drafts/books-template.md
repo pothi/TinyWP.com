@@ -36,18 +36,15 @@ Finance books:
 - Alchemy of Money: Think Rich Initiatives by Anand Srinivasan
 
 Fiction:
-- Koonampaarai Santhippu (Tamil Edition) - Translated from Malayalam by Thampy Antony Thekkek
-- Blue Moon - Lee Child
-- Contact - Carl Sagan
-- Anger of a woman named 'Komalam' (Tamil Edition) by Aringar Anna
+- One Part Female (Tamil Edition) by Perumalmurugan - Bought on Kindle - English edition of the book won the [Sahitya award](https://www.sahitya-akademi.gov.in/) for the translation in 2016.
+- [You Only Live Once by Maxine Morrey](https://www.amazon.in/dp/B09V4R7JYN)
 
 Non-fiction:
 - The Body Keeps the Score: Mind, Brain and Body in the Transformation of Trauma - Bessel van der Kolk - bought via Kindle
+- Robert Oppenheimer: A Life from Beginning to End (World War 2 Biographies) by Hourly History
 
 Currently Reading...
 - One Up On Wall Street by Peter Lynch
-- One Part Female (Tamil Edition) by Perumalmurugan - Bought on Kindle - English edition of the book won the [Sahitya award](https://www.sahitya-akademi.gov.in/) for the translation in 2016.
-- Robert Oppenheimer: A Life from Beginning to End (World War 2 Biographies) by Hourly History
 
 Currently listening... (via Audible)
 
