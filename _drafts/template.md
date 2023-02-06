@@ -21,7 +21,7 @@ categories: ["misc"]
 #   and separated by space.
 # Jekyll additionally supports a simple comman separately list (non-standard format)
 # Do NOT ever use a non-standard format
-tags: ["test" "another-tag"]
+tags: ["test", "another-tag"]
 
 # permalink: "/any-permalink/"
 ---

@@ -6,7 +6,10 @@
 - `npm install -g firebase-tools`
 - `firebase login --no-localhost` (and follow the prompts)
 - `firebase projects:list`
-- `firebase use --add` (to set / select an active project and alias)
+- do the following steps after configuring `JS_URL` and copying firebase.json from Github repo
+- mkdir ~/sites/$JS_URL/firebase -p
+- `cd ~/sites/$JS_URL/firebase`
+- `firebase use --add` (to set / select an active project and alias *interactively*) or use `firebase use PROJECT_ID` replacing PROJECT_ID with the actual ID
 - `firebase --project project_alias deploy --only hosting` (without setting an active project)
 
 ## Node installation using fnm
@@ -46,6 +49,7 @@ As a normal user...
 # configure if not exist
 echo $GEM_HOME
 echo $PATH
+# Do not worry, if GEM_HOME is not included in PATH
 
 # JS_URL = Jekyll Site URL
 export JS_URL=example.com
@@ -54,10 +58,13 @@ mkdir -p ~/sites/$JS_URL/public
 
 cd ~/sites/$JS_URL
 git pull https://github.com/pothi/TinyWP.com jekyll
+mkdir firebase
 cp jekyll/firebase.json firebase/
 cd jekyll
 
 gem install bundler
+# to include GEM_HOME in PATH
+source ~/.bashrc
 bundle install
 
 rm -rf ../public && bundle exec jekyll build -d ~/sites/$JS_URL/public --config _jammy.yml --watch --incremental --drafts
@@ -66,7 +73,7 @@ rm -rf ../public && bundle exec jekyll build -d ~/sites/$JS_URL/public --config 
 Once everything is working, please have a cron to remove the test site.
 
 ```
-@daily [ -d ~/sites/com.tinywp.com/public/ ] && rm -rf ~/sites/com.tinywp.com/public
+crontab -l | echo "@daily [ -d ~/sites/$JS_URL/public/ ] && rm -rf ~/sites/$JS_URL/public/*" | crontab -
 
 ```
 
