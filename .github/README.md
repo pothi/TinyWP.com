@@ -65,7 +65,11 @@ cd jekyll
 gem install bundler
 # to include GEM_HOME in PATH
 source ~/.bashrc
+
 bundle install
+
+# update staging site URL
+sed -i "s/example.com/$JS_URL/" _jammy.yml
 
 rm -rf ../public && bundle exec jekyll build -d ~/sites/$JS_URL/public --config _jammy.yml --watch --incremental --drafts
 ```
