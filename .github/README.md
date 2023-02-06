@@ -73,7 +73,7 @@ rm -rf ../public && bundle exec jekyll build -d ~/sites/$JS_URL/public --config 
 Once everything is working, please have a cron to remove the test site.
 
 ```
-crontab -l | echo "@daily [ -d ~/sites/$JS_URL/public/ ] && rm -rf ~/sites/$JS_URL/public/*" | crontab -
+(crontab -l; echo "@daily [ -d ~/sites/$JS_URL/public/ ] && rm -rf ~/sites/$JS_URL/public/*") | crontab -
 
 ```
 
