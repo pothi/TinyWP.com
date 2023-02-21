@@ -39,6 +39,9 @@ Fiction:
 - One Part Female (Tamil Edition) by Perumalmurugan - Bought on Kindle - English edition of the book won the [Sahitya award](https://www.sahitya-akademi.gov.in/) for the translation in 2016.
 - [You Only Live Once by Maxine Morrey](https://www.amazon.in/dp/B09V4R7JYN)
 
+Fiction Books by [Frances Evesham](https://www.amazon.in/Frances-Evesham/e/B004Q8KWX2/):
+- [A Village Murder](https://www.amazon.in/gp/product/B08666VGW8/)
+
 Non-fiction:
 - The Body Keeps the Score: Mind, Brain and Body in the Transformation of Trauma - Bessel van der Kolk - bought via Kindle
 - Robert Oppenheimer: A Life from Beginning to End (World War 2 Biographies) by Hourly History
@@ -49,6 +52,7 @@ Currently Reading...
 Currently listening... (via Audible)
 
 - [The Circadian Code](https://www.amazon.in/Circadian-Code-Supercharge-Transform-Midnight/dp/163565243X) by [Dr. Satchin Panda](https://www.salk.edu/scientist/satchidananda-panda/)
+- [A Racing Murder](https://www.amazon.in/gp/product/B08HTQYFZ9/)
 
 
 ### The books that impressed me the most in 2023
