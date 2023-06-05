@@ -22,6 +22,7 @@ Books by Sujatha... (Tamil)
 1. [Thappiththal Thappillai](https://www.amazon.com/dp/B08JLM7WRW)
 2. [En Eniya Eyainthira](https://www.amazon.com/dp/B07RY5MRBD)
 3. [Meendum Jeeno](https://www.amazon.com/dp/B07RZ4N87L)
+4. [Computer Gramam](https://www.amazon.com/dp/B07TZXFGXN)
 
 Books by [Pa Raghavan](https://wikipedia.org/wiki/Pa._Raghavan). All books are in Tamil.
 
@@ -65,6 +66,12 @@ Audible Books:
 
 Currently listening... (via Audible)
 - [The Circadian Code](https://www.amazon.in/Circadian-Code-Supercharge-Transform-Midnight/dp/163565243X) by [Dr. Satchin Panda](https://www.salk.edu/scientist/satchidananda-panda/)
+
+Unfinished books
+
+These are the books that I may never read again. The concept of such books are grasped or boring (for me). I might have missed some important points in those books. If you think I should read a book in full, please let me know.
+
+- 
 
 
 ### The books that impressed me the most in 2023
