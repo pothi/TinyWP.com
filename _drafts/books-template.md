@@ -48,6 +48,7 @@ The Ham Hill Murder Mysteries (3 books)
 The Exham-on-Sea Murder Mysteries series (8 books)
 - [Murder At the Lighthouse](https://www.amazon.in/gp/product/B08592MXPQ)
 - [Murder on the Levels](https://www.amazon.in/gp/product/B0858X1BN8)
+- [Murder on the Tor](https://www.amazon.in/gp/product/B08592M75C/)
 
 Non-fiction:
 - [The Body Keeps the Score: Mind, Brain and Body in the Transformation of Trauma - Bessel van der Kolk](https://www.amazon.com/dp/B00IICN1F8) - bought via Kindle
@@ -59,7 +60,7 @@ Book from Hourly History
 - Battle of Chickamauga: A History from Beginning to End (American Civil War)
 
 Currently Reading...
-- [Murder on the Tor](https://www.amazon.in/gp/product/B08592M75C/)
+- [Freedom at Midnight by Larry Collins, Dominique Lapierre](https://www.amazon.in/gp/product/B06XGZFV3D/ref=ku_mi_rw_edp_ku)
 
 Audible Books:
 - [A Racing Murder](https://www.amazon.in/gp/product/B08HTQYFZ9/)
