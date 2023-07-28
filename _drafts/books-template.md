@@ -60,7 +60,9 @@ Book from Hourly History
 - Battle of Chickamauga: A History from Beginning to End (American Civil War)
 
 Currently Reading...
-- [Freedom at Midnight by Larry Collins, Dominique Lapierre](https://www.amazon.in/gp/product/B06XGZFV3D/ref=ku_mi_rw_edp_ku)
+- [Freedom at Midnight by Larry Collins, Dominique Lapierre](https://www.amazon.in/gp/product/B06XGZFV3D/)
+- [Azhagar Koyil by Tho.Paramasivam](https://www.amazon.in/gp/product/B0B64G3CFV/)
+- [Murder at the Cathedral](https://www.amazon.in/gp/product/B08592T6S6/)
 
 Audible Books:
 - [A Racing Murder](https://www.amazon.in/gp/product/B08HTQYFZ9/)
