@@ -35,6 +35,28 @@ npm -v
 
 ## Instructions for Ubuntu Jammy JellyFish (22.04)
 
+Routine tasks (when you write and publish a new post)....
+
+Please go through the one-time process below, if you are doing this for the first time in a new server.
+
+```
+# JS_URL = Jekyll Site URL
+# replace example.com with the actual URL of the development domain
+export JS_URL=example.com
+
+rm -rf ~/sites/$JS_URL/source
+
+git pull https://github.com/pothi/TinyWP.com ~/sites/$JS_URL/source
+cd ~/sites/$JS_URL/source
+
+# update staging site URL
+sed -i "s/example.com/$JS_URL/" _jammy.yml
+
+rm -rf ../public && bundle exec jekyll build -d ~/sites/$JS_URL/public --config _jammy.yml --watch --incremental --drafts
+```
+
+### Once-time Process:
+
 Note: The snap version doesn't contain ruby-dev files. So, don't install via snap, yet.
 
 ```
@@ -54,13 +76,11 @@ echo $PATH
 # JS_URL = Jekyll Site URL
 export JS_URL=example.com
 
-mkdir -p ~/sites/$JS_URL/public
+mkdir -p ~/sites/$JS_URL/{public,firebase}
 
-cd ~/sites/$JS_URL
-git pull https://github.com/pothi/TinyWP.com jekyll
-mkdir firebase
-cp jekyll/firebase.json firebase/
-cd jekyll
+git pull https://github.com/pothi/TinyWP.com ~/sites/$JS_URL/source
+cp ~/sites/$JS_URL/source/firebase.json ~/sites/$JS_URL/firebase/
+cd ~/sites/$JS_URL/source
 
 gem install bundler
 # to include GEM_HOME in PATH
