@@ -72,9 +72,9 @@ Currently listening... (via Audible)
 
 Unfinished books
 
-These are the books that I may never read again. The concept of such books are grasped or boring (for me). I might have missed some important points in those books. If you think I should read a book in full, please let me know.
+These are the books that are read partially and may never read in full again. These books may be boring or the concept of such books are grasped or boring (for me). I might have missed some important points in those books. If you think I should read a book in full, please let me know.
 
-- 
+- [Ketones, The Fourth Fuel: Warburg to Krebs to Veech, the 250 Year Journey to Find the Fountain of Youth](https://www.amazon.in/gp/product/B08G8TFQKS/)
 
 
 ### The books that impressed me the most in 2023
