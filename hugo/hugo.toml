@@ -1,0 +1,80 @@
+baseURL = 'https://www.tinywp.com/'
+languageCode = 'en-us'
+title = 'Tiny Web Pages'
+theme = 'hermit-v2'
+
+copyright = "Pothi Kalimuthu"
+
+[frontmatter]
+date = ["lastmod", "date", "publishDate"]
+lastmod = ["date", "lastmod", ":git", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
+
+[params.author]
+  name = "Pothi Kalimuthu"
+  about = "https://www.tinywp.in"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  [[params.socialLinks]]
+    name = "x"
+    url = "https://x.com/pothi"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/pothi"
+
+### The following are optional
+
+  themeColor = "#494f5c"
+
+  relatedPosts = true
+  code_copy_button = true
+
+  homeSubtitlePrinter = true
+  scrollToTop = true
+
+  global_mathjax = false
+
+  # readTime = true
+  # readTimeSeparator = " - "
+
+  # shareSocial = true
+
+  # [[params.socialLinks]]
+    # name = "wordpress"
+    # url = "https://joinmastodon.org/"
+
+
+
+[markup]
+
+  [markup.goldmark]
+    renderer.unsafe = true
+
+    [markup.goldmark.extensions]
+      strikethrough = false
+      [markup.goldmark.extensions.extras]
+        [markup.goldmark.extensions.extras.delete]
+          enable = true
+        [markup.goldmark.extensions.extras.subscript]
+          enable = true
+        [markup.goldmark.extensions.extras.superscript]
+          enable = true
