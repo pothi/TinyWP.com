@@ -16,3 +16,9 @@ Gemfile.lock
 
 # hugo
 .hugo_build.lock
+hugo/public-local
+hugo/public-live
+hugo/resources
+
+# firebase
+firebase/.firebase
