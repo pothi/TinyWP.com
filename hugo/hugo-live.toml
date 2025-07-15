@@ -1,5 +1,5 @@
-baseURL = 'https://hugo.dev.local/'
-publishDir = "public-local"
+baseURL = 'https://www.tinywp.com/'
+publishDir = "public-live"
 
 languageCode = 'en-us'
 title = 'Tiny Web Pages'
@@ -30,7 +30,6 @@ expiryDate = ["expiryDate"]
   about = "https://www.tinywp.in"
 
 [params]
-
   [params.dateform]
     LongDate = "Jan 2, 2006"
     ShortDate = "Jan 2"
