@@ -1,5 +1,7 @@
 # TinyWP.com under Hugo
 
+[https://firebase.google.com/docs/cli/#install-cli-mac-linux](https://firebase.google.com/docs/cli/#install-cli-mac-linux)
+
 ## To develop (common steps)...
 
 ```

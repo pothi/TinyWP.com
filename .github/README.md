@@ -2,6 +2,8 @@
 
 ## Instructions for Firebase CLI Installation and Initialization
 
+[https://firebase.google.com/docs/cli/#install-cli-mac-linux](https://firebase.google.com/docs/cli/#install-cli-mac-linux)
+
 - Install node (and thus npm). Preferable using [fnm](https://github.com/Schniz/fnm).
 - `npm install -g firebase-tools`
 - `firebase login --no-localhost` (and follow the prompts)
