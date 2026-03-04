@@ -22,3 +22,4 @@ hugo/resources
 
 # firebase
 firebase/.firebase
+firebase/public

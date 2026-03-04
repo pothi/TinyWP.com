@@ -31,25 +31,34 @@ hugo new content posts/(date +%F)-post_title.md
 ```
 hugo server --buildDrafts
 
-# then visit http://localhost:1313/ to see all changes immediately (hot-reload enabled)
 ```
+
+Then visit [http://localhost:1313/](http://localhost:1313/) to see all changes immediately (hot-reload enabled).
 
 ### To see the site locally without drafts and without seeing changes live...
 
 ```
+# remove old content if any
+[ -d ~/sites/hugo.dev.local/public ] && rm -rf ~/sites/hugo.dev.local/public
 
 cd ~/sites/hugo.dev.local/hugo
 hugo --destination ~/sites/hugo.dev.local/public
 ```
 
-Check out the site at hugo.dev.local
+Check out the site at [hugo.dev.local](https://hugo.dev.local)
 
 ### For production...
 
 ```
+# remove old content if any.
+[ -d ~/sites/hugo.dev.local/firebase/public ] && rm -rf ~/sites/hugo.dev.local/firebase/public
+
 cd ~/sites/hugo.dev.local/hugo
 hugo --config hugo-live.toml --destination ~/sites/hugo.dev.local/firebase/public
 
 cd ~/sites/hugo.dev.local/firebase
 firebase deploy --only hosting
+
+# cleanup
+[ -d ~/sites/hugo.dev.local/firebase/public ] && rm -rf ~/sites/hugo.dev.local/firebase/public
 ```
