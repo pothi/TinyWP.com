@@ -14,7 +14,7 @@ subtitle: 'How to remove the bookmark of an old version of a tweet.'
 excerpt: 'Just visit the bookmarks on a desktop/laptop to find the option to remove the bookmark.'
 
 date: '2026-01-18T09:44:53+05:30'
-draft: true
+draft: false
 toc: false
 images:
 
