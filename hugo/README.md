@@ -33,7 +33,7 @@ hugo server --buildDrafts
 
 ```
 
-Then visit [http://localhost:1313/](http://localhost:1313/) to see all changes immediately (hot-reload enabled).
+Then visit [http://localhost:1313/](http://localhost:1313/){:target="_blank"} to see all changes immediately (hot-reload enabled).
 
 ### To see the site locally without drafts and without seeing changes live...
 
@@ -45,7 +45,7 @@ cd ~/sites/hugo.dev.local/hugo
 hugo --destination ~/sites/hugo.dev.local/public
 ```
 
-Check out the site at [hugo.dev.local](https://hugo.dev.local)
+Check out the site at [hugo.dev.local](https://hugo.dev.local){:target="_blank"}
 
 ### For production...
 
